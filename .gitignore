@@ -1,0 +1,7 @@
+*.exe
+*.pnproj
+*.pnps
+build.ch
+configuratiçõesServidor.docx
+ErrorLog.htm
+obj/

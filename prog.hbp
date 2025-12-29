@@ -1,0 +1,74 @@
+# Nome do Execut�vel
+-omenu
+
+# Biblitecas
+-lminigui
+-lminiprint
+-lhbprinter
+-lhbhpdf
+-lTsbrowse
+-llibhpdf
+
+hbzebra.hbc
+-tshead=build.ch
+#-bldhead=compdatetime.ch
+-lpng
+-lhbct
+-lhbwin
+-lxhb
+-lhbtip
+hbssl.hbc
+hbtip.hbc
+#hbhttpd.hbc
+
+-lBostaurus
+# -b para debugar- usar Alt D
+-b
+
+#-w3  preciso testar
+#-es2 preciso testar
+#-n
+
+-gui
+-run
+
+#Outros Parametros
+#-compr
+-workdir=.\obj\
+
+# Prg(s) e RC(s)
+source\menu
+source\errorsys
+source\funcoes
+#source\funpdf
+#source\redeproc
+
+# CLASSES
+source\TConn
+#source\class_bole
+#source\ze_pdfclass
+#source\TTabelas
+#source\TBaseDados
+#source\TBuscas
+#source\TContribu
+#source\TAnalitico
+#source\TGerarBoleto
+#source\TObitos
+
+# Source
+#source\scrGeraTabelas
+#source\srcGeraBoletos
+#source\srcBackup
+#source\teste
+#source\srcFuncCaixa
+#source\srcDevoAparelho
+
+#source\pesqContratos
+#source\pesqReceber
+#source\pesqObitos
+
+#source\relLGPD
+#source\relContrato
+
+#resource\menu.rc
+C:\MiniGui\RESOURCES\miniprint.rc

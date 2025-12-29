@@ -1,0 +1,7 @@
+#incpaths=${hb_curdir}
+#libpaths=
+#libs=hbziparc hbmzip minizip unicows
+
+incpaths=include;c:\minigui\include
+libpaths=c:\minigui\lib
+
